@@ -1,0 +1,29 @@
+{
+  "name": "@yosmy/contact",
+  "version": "0.1.0",
+  "private": true,
+  "main": "build/index.js",
+  "dependencies": {
+    "@yosmy/phone": "git+https://github.com/yosmy/phone-js.git",
+    "@yosmy/string": "git+https://github.com/yosmy/string-js.git",
+    "@yosmy/ui": "git+https://github.com/yosmy/ui-js.git",
+    "lodash": "~4.17",
+    "prop-types": "~15.7",
+    "react": "~17.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "~7.12",
+    "@babel/core": "~7.12",
+    "@babel/plugin-proposal-class-properties": "~7.12",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "~7.12",
+    "@babel/plugin-proposal-object-rest-spread": "~7.12",
+    "@babel/plugin-proposal-optional-chaining": "~7.12",
+    "@babel/plugin-transform-flow-strip-types": "~7.12",
+    "@babel/plugin-transform-react-jsx": "~7.12",
+    "@babel/preset-env": "~7.12",
+    "@yosmy/platform": "git+https://github.com/yosmy/mobile-platform-js.git"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
